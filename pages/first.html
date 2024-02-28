@@ -31,9 +31,129 @@
     <!-- Title End -->
 
     <!-- Main Content -->
-  <main class="d-flex flex-column px-0">
-    <div class="container">
-      
+  <main class="d-flex flex-column px-0 min-vh-100">
+    <div class="container p-5">
+      <a href="/" class="btn btn-primary roboto-bold py-2 px-4 mb-4" style="font-size: 24px;">
+        Back
+      </a>
+      <div class="roboto-regular mb-2" style="font-size: 24px;">
+        <b>Global climate</b> refers to the long-term patterns and trends of weather conditions, including
+        temperature, precipitation, wind patterns, and other atmospheric factors, on a global scale.
+        <br/> <br/>
+      </div>
+
+      <div class="text-center roboto-bold mb-2">
+        <h2>7 Climatic Controls</h2>
+      </div>
+
+      <div class="my-2 p-4 roboto-regular">
+        <div id="climateCarousel" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#climateCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#climateCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#climateCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#climateCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#climateCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#climateCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#climateCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.unsplash.com/photo-1544965850-6f8a66788f9b?q=80&w=1814&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="sunshine">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-gradient bg-opacity-75">
+                <h5>Intensity of sunshine and it’s variation to latitude</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://plus.unsplash.com/premium_photo-1697808073446-be6195ef0747?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="land and water">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-gradient bg-opacity-75">
+                <h5>Distribution of land and water</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1613093329931-d76c6b27c647?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="ocean current">
+              <div class="carousel-caption d-none d-md-block  bg-dark bg-gradient bg-opacity-75">
+                <h5>Ocean Current</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1443866451220-8377d57c426a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="winds">
+              <div class="carousel-caption d-none d-md-block  bg-dark bg-gradient bg-opacity-75">
+                <h5>Prevailing winds</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1463947628408-f8581a2f4aca?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="clouds">
+              <div class="carousel-caption d-none d-md-block  bg-dark bg-gradient bg-opacity-75">
+                <h5>Position of high and low pressure areas</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="mountains">
+              <div class="carousel-caption d-none d-md-block  bg-dark bg-gradient bg-opacity-75">
+                <h5>Mountain barriers</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1515017407166-5dcb058bb30f?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="high mountain">
+              <div class="carousel-caption d-none d-md-block  bg-dark bg-gradient bg-opacity-75">
+                <h5>Altitude</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#climateCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#climateCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> 
+      </div>
+
+      <div class="roboto-regular my-2" style="font-size: 24px;">
+        <b>Global temperature</b> refers to the average temperature of the Earth’s surface, taking into account
+        measurements from various locations around the world. It provides an understanding of the overall
+        heat balance of the planet and is a key indicator of climate change. Changes in global temperature
+        can impact weather patterns, sea levels, ecosystems, and human activities.
+        <br/> <br/>
+      </div>
+
+      <div class="p-2 d-flex justify-content-center my-2"> 
+        <img src="../images/temp.jpg" class="d-block" alt="high mountain">
+      </div>
+
+
+      <div class="roboto-regular mb-2" style="font-size: 24px;">
+        <b>Global precipitation </b> refers to the total amount of rainfall, snowfall, and other forms of precipitation
+        that occur worldwide. It indicates the distribution and intensity of moisture across the Earth’s
+        surface. Global precipitation patterns are influenced by factors such as atmospheric circulation,
+        temperature gradients, and proximity to large bodies of water. Changes in global precipitation can
+        affect water resources, agriculture, and the overall climate system.
+        <br/> <br/>
+      </div>
+
+      <div class="d-flex justify-content-center mt-2"> 
+        <img src="../images/precipitation.jpg" class="d-block w-50" alt="high mountain">
+      </div>
+
+      <div class="roboto-regular pt-4" style="font-size: 24px;">
+        <b>Precipitation extremes</b> refer to the occurrence of unusually high or low amounts of rainfall or
+        snowfall in a specific region. These extreme weather events can deviate significantly from the normal
+        or average precipitation patterns observed in that area.
+        <br/> <br/>
+      </div>
+
+      <div class="d-flex justify-content-center mt-2"> 
+        <img src="../images/key-map.jpg" class="d-block" alt="high mountain">
+      </div>
+
+
+
+
+
+
     </div>
   </main>
 
